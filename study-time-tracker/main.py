@@ -1,7 +1,8 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from db import init_db, add_log, get_all_logs, delete_log
-
+from charts import save_subject_chart
+from reports import export_logs_to_csv
 class StudyTrackerApp:
     def __init__(self, root):
         self.root = root
@@ -55,7 +56,12 @@ class StudyTrackerApp:
 
         self.tree.pack(fill="both", expand=True)
 
-        tk.Button(self.root, text="Delete Selected", command=self.handle_delete).pack(pady=5)
+        button_frame = tk.Frame(self.root)
+        button_frame.pack(pady=5)
+
+        tk.Button(button_frame, text="Delete Selected", command=self.handle_delete).pack(side="left", padx=5)
+        tk.Button(button_frame, text="Generate Chart", command=self.handle_generate_chart).pack(side="left", padx=5)
+        tk.Button(button_frame, text="Export CSV", command=self.handle_export_csv).pack(side="left", padx=5)
 
     def handle_add(self):
         subject = self.subject_entry.get().strip()
@@ -86,6 +92,17 @@ class StudyTrackerApp:
         log_id = item["values"][0]
         delete_log(log_id)
         self.refresh_table()
+
+    def handle_generate_chart(self):
+        success = save_subject_chart()
+        if success:
+            messagebox.showinfo("Success", "Chart saved to data/subject_summary.png")
+        else:
+            messagebox.showwarning("Warning", "No data available to generate chart.")
+
+    def handle_export_csv(self):
+        filename = export_logs_to_csv()
+        messagebox.showinfo("Success", f"CSV exported to {filename}")
 
     def refresh_table(self):
         for row in self.tree.get_children():
