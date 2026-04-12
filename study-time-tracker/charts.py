@@ -29,7 +29,7 @@ def save_subject_bar_chart():
     colors = ACADEMIC_COLORS[:len(subjects)]
 
     plt.style.use("default")
-    fig, ax = plt.subplots(figsize=(10, 6), dpi=160)
+    fig, ax = plt.subplots(figsize=(8, 6), dpi=200)
     fig.patch.set_facecolor("white")
     ax.set_facecolor("white")
 
@@ -86,7 +86,7 @@ def save_subject_pie_chart():
     colors = ACADEMIC_COLORS[:len(subjects)]
 
     plt.style.use("default")
-    fig, ax = plt.subplots(figsize=(8, 8), dpi=160)
+    fig, ax = plt.subplots(figsize=(8, 6), dpi=200)
     fig.patch.set_facecolor("white")
     ax.set_facecolor("white")
 
