@@ -86,11 +86,12 @@ The project strictly follows the standard software development lifecycle:
 ---
 
 ## 4. Team Roles & Contribution
+
 | Member | Role | Responsibility | Contribution % |
 |--------|------|----------------|----------------|
-| Member 1 | Project Leader | UI, main logic, README | 25 |
-| Member 2 | Core Developer | Database, charts, functions | 25 |
-| Member 3 | Developer | UI components, testing | 25 |
+| Member 1 | Project Leader & Core Developer | System development, UI implementation, logic coding, database integration | 34% |
+| Member 2 | Requirements & Documentation | Requirement analysis, system design, README documentation, module testing | 33% |
+| Member 3 | Testing & Project Integration | System validation, demo video production, project submission, environment configuration | 33% |
 
 ---
 
