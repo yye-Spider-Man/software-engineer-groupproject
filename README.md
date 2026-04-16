@@ -1,11 +1,12 @@
-# software-engineer-groupproject
+<img width="1344" height="916" alt="image" src="https://github.com/user-attachments/assets/c113b920-f304-4ae1-bffe-ceadd691237c" /># software-engineer-groupproject
 # Study Time Tracker
 COMP2116 Software Engineering Group Project
 
 ---
 
 ## 1. Graphical Abstract
-![Graphical Abstract](image.png)
+<img width="1344" height="916" alt="image" src="https://github.com/user-attachments/assets/1d3bf87a-c56e-4267-9d6a-3fe25d737bd5" />
+
 
 ---
 
@@ -158,7 +159,7 @@ All functions completed:
 ---
 
 ## 9. Demo Video
-YouTube URL:https://github.com/yye-Spider-Man/software-engineer-groupproject
+YouTube URL:https://youtu.be/dAUD9MNTwiE
 
 ---
 
