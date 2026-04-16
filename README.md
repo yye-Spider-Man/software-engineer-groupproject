@@ -1,4 +1,4 @@
-<img width="749" height="196" alt="image" src="https://github.com/user-attachments/assets/05e02f72-66f8-4e0c-aad2-8c3c9e298ce7" />
+<img width="1873" height="999" alt="image" src="https://github.com/user-attachments/assets/81bdbc18-5f77-41ef-b3a9-4f712147884e" />
 software-engineer-groupproject
 # Study Time Tracker
 COMP2116 Software Engineering Group Project
@@ -166,7 +166,7 @@ YouTube URL:https://youtu.be/dAUD9MNTwiE
 ---
 
 ## 10. Development & Runtime Environment
-- Language: Python 3.x
+- Language: Python 3.12
 - Libraries: customtkinter, tkinter, sqlite3, matplotlib, pandas
 - Run command: python main.py
 
