@@ -1,4 +1,5 @@
-<img width="1344" height="916" alt="image" src="https://github.com/user-attachments/assets/c113b920-f304-4ae1-bffe-ceadd691237c" /># software-engineer-groupproject
+<img width="749" height="196" alt="image" src="https://github.com/user-attachments/assets/05e02f72-66f8-4e0c-aad2-8c3c9e298ce7" />
+software-engineer-groupproject
 # Study Time Tracker
 COMP2116 Software Engineering Group Project
 
