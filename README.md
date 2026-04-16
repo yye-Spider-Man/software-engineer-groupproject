@@ -5,7 +5,8 @@ COMP2116 Software Engineering Group Project
 ---
 
 ## 1. Graphical Abstract
-<img width="1344" height="916" alt="image" src="https://github.com/user-attachments/assets/1d3bf87a-c56e-4267-9d6a-3fe25d737bd5" />
+<img width="1873" height="999" alt="image" src="https://github.com/user-attachments/assets/81bdbc18-5f77-41ef-b3a9-4f712147884e" />
+
 
 
 ---
@@ -91,8 +92,8 @@ The project strictly follows the standard software development lifecycle:
 | Member | Role | Responsibility | Contribution % |
 |--------|------|----------------|----------------|
 | Member 1 | Project Leader & Core Developer | System development, UI implementation, logic coding, database integration | 34% |
-| Member 2 | Requirements & Documentation | Requirement analysis, system design, README documentation, module testing | 33% |
-| Member 3 | Testing & Project Integration | System validation, demo video production, project submission, environment configuration | 33% |
+| Member 2 | Requirements & Documentation | Requirement analysis, system design, README documentation, module testing,, project submission,  | 33% |
+| Member 3 | Testing & Project Integration | System validation, demo video production,environment configuration | 33% |
 
 ---
 
